@@ -15,10 +15,6 @@ app.use(cors());
 app.use(router)
 const PORT = process.env.PORT;
 
-
-
-
-
 app.get('/api', async (req, res, next) => {
    db.connect( async ()=> {
 
